@@ -36,9 +36,8 @@ header li {
     display: inline;
 }
 footer {
-    color: #DDE2E3
+    color: #DDE2E3;
     text-align: center;
-    background-color: #297373;
 }
 header a:link {
     color: #FFA200;
