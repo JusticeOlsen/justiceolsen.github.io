@@ -12,8 +12,11 @@ main {
     margin: auto;
 }
 img {
-    background-color: #DDE2E3;
-    border: 2px solid black;
+    border-radius: 25px;
+    background: #DDE2E3;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
 }
 header {
     color: #FFA200;
