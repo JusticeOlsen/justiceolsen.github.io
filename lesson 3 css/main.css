@@ -8,7 +8,7 @@ body {
 }
 main {
     font-size: 2em;
-    max-width: 1500px ;
+    max-width: 800px ;
     margin: auto;
 }
 img {
@@ -36,7 +36,7 @@ header li {
     display: inline;
 }
 footer {
-    color: #DDE2E3;
+    color: #DDE2E3
     text-align: center;
     background-color: #297373;
 }
