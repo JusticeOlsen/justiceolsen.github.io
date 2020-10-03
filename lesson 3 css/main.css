@@ -12,9 +12,8 @@ main {
     margin: auto;
 }
 img {
-    border: 2px solid black;
     background-color: #DDE2E3;
-  
+    border: 2px solid black;
 }
 header {
     color: #FFA200;
