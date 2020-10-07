@@ -8,8 +8,6 @@ body {
 }
 main {
     font-size: 2em;
-    max-width: 800px ;
-    margin: auto;
 }
 img {
     border-radius: 25px;
