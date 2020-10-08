@@ -8,6 +8,11 @@ body {
 }
 main {
     font-size: 2em;
+    background-color: #DDE2E3;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
 }
 img {
     border-radius: 25px;
@@ -38,4 +43,9 @@ footer {
 }
 header a:link {
     color: #FFA200;
+}
+
+h5{
+    text-decoration: underline;
+    font-family: 'Roboto';
 }
