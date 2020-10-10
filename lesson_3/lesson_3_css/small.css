@@ -1,0 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@400;900&display=swap');
+body {
+    background-color:#DDE2E3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    
+}
+main {
+    font-size: 2em;
+    background-color: #DDE2E3;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    border-radius: 25px;
+    background: #DDE2E3;
+}
+header {
+    color: #FFA200;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4em;
+    text-align: center;
+    background-color: #297373;
+}
+header a:link {
+    color: #FFA200;
+}
+header a:visited {
+    color: #FFA200;
+}
+header a {
+    text-decoration: none;
+}
+header li {
+    padding: 0 1.5em ;
+    display: inline;
+}
+footer {
+    text-align: center;
+}
+header a:link {
+    color: #FFA200;
+}
+
+h5{
+    text-decoration: underline;
+    font-family: 'Roboto';
+}
