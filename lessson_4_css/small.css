@@ -59,3 +59,7 @@ h5{
     text-decoration: underline;
     font-family: 'Roboto';
 }
+h6 {
+    font-style: italic;
+    font-family: 'Roboto';
+}
