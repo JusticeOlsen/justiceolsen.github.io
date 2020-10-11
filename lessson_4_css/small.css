@@ -14,6 +14,16 @@ main {
     display: flex;
     flex-direction: column;
 }
+.navigation li:first-child{
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
 img {
     border-radius: 25px;
     background: #DDE2E3;
