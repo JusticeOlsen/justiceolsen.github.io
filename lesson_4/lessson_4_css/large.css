@@ -3,7 +3,7 @@
     display: none;
 }
 .navigation li {
-    display: block;
+    display: inline-block;
     margin: auto;
 }
 main {
