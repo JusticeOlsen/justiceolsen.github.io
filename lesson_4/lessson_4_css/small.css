@@ -7,8 +7,14 @@ body {
     margin: 0;
 }
 .navigation {
+    margin: -10;
+    font-size: 2em;
     display: flex;
-    border: 2px solid #FFA200;
+    text-align: center;
+    background-color: #297373;
+    color: #FFA200;
+    font-family: 'Luckiest Guy', cursive;
+    
 }
 main {
     font-size: 2em;
@@ -23,8 +29,8 @@ main {
 }
 .navigation li {
     display: none;
-    border: 2px solid #FFA200;
-
+    padding: 0 1.5em ;
+    display: inline;
 }
 
 .responsive li {
@@ -41,18 +47,14 @@ header {
     text-align: center;
     background-color: #297373;
 }
-header a:link {
+.navigation a:link {
     color: #FFA200;
 }
-header a:visited {
+.navigation a:visited {
     color: #FFA200;
 }
-header a {
+.navigation a {
     text-decoration: none;
-}
-header li {
-    padding: 0 1.5em ;
-    display: inline;
 }
 footer {
     text-align: center;
