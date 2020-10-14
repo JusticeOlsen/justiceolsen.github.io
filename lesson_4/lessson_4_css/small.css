@@ -29,8 +29,7 @@ main {
 }
 .navigation li {
     display: none;
-    padding: 0 1.5em ;
-    display: inline;
+    
 }
 
 .responsive li {

@@ -4,7 +4,6 @@
 }
 .navigation li {
     display: inline-block;
-    margin: auto;
 }
 main {
     font-size: 1em;
@@ -14,6 +13,7 @@ main {
 #menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
 }
 }
 
