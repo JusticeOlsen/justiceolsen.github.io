@@ -61,7 +61,34 @@ footer {
 header a:link {
     color: #FFA200;
 }
-
+.weather_summary {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    border: 2px dotted #FFA200;
+    
+}
+.five_day {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    border: 2px dotted #FFA200;
+}
+.article {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    border: 2px dotted #FFA200;
+}
+.contact {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    border: 2px dotted #FFA200;
+}
+h2{
+    text-align: center;
+}
 h5{
     text-decoration: underline;
     font-family: 'Roboto';
