@@ -7,6 +7,7 @@ body {
     margin: 0;
 }
 .navigation {
+    padding: .5em;
     margin: -10;
     font-size: 2em;
     display: flex;
@@ -14,8 +15,19 @@ body {
     background-color: #297373;
     color: #FFA200;
     font-family: 'Luckiest Guy', cursive;
-    
 }
+.announcement {
+    text-align: center;
+    background-color: #297373;
+    color: #FFA200;
+    border: 10px dotted #FFA200;
+    font-size: 2em;
+    padding: 20px;
+}
+.announcement.toggle {
+    display: none;
+}
+
 main {
     font-size: 2em;
     background-color: #DDE2E3;
@@ -29,15 +41,32 @@ main {
 }
 .navigation li {
     display: none;
-    
 }
-
 .responsive li {
     display: block;
 }
-img {
+.navigation a:hover {
+    background-color: #DDE2E3;
+}
+.active {
+    border: 2px solid #FFA200;
+}
+.logo {
     border-radius: 25px;
     background: #DDE2E3;
+}
+.article_logo {
+    float: right;
+    padding: 1em;
+}
+.container {
+    position: relative;
+}
+.container img {
+    width: 800px;
+}
+.forecast_icon {
+    width: 60px; 
 }
 header {
     color: #FFA200;
@@ -55,38 +84,71 @@ header {
 .navigation a {
     text-decoration: none;
 }
+.ci {
+    text-decoration: bold;
+    margin: 20px;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid #297373;
+}
+#social {
+    display: inline;
+    padding: 10px;
+    font-size: 1em;
+}
+#map {
+   display: none;
+}
 footer {
     text-align: center;
 }
 header a:link {
     color: #FFA200;
 }
-.weather_summary {
-    display: block;
-    text-align: center;
-    font-size: 1em;
-    border: 2px dotted #FFA200;
-    
+.ws{
+    color: #DDE2E3;
+    line-height: 1.5em;
+    padding: 1em;
+    text-align: left;
+    list-style: none;
+    background-color: #297373;
+    float: left;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+.ws th {
+    color: #DDE2E3;
+    text-align: left;
+}
+.ws td {
+    color: #FFA200;
+    text-align: right;
 }
 .five_day {
-    display: block;
+    display: none;
     text-align: center;
     font-size: 1em;
-    border: 2px dotted #FFA200;
+}
+.forecast {
+    display: none;
+    padding: 10px;
+    margin: 10px;
+}
+.box {
+    padding: 20px;
+    margin: 10px;
+    display: none;
+    border: 2px solid #297373;
 }
 .article {
     display: block;
     text-align: center;
     font-size: 1em;
-    border: 2px dotted #FFA200;
+    border: 2px solid #297373;
 }
-.contact {
-    display: block;
-    text-align: center;
-    font-size: 1em;
-    border: 2px dotted #FFA200;
-}
-h2{
+h1{
     text-align: center;
 }
 h5{

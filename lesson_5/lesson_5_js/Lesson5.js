@@ -1,6 +1,10 @@
+//Toggle menu function start
 function toggle_menu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");  
 }
+//Toggle menu function end
+
+//Date in footer start
 const daynames = [
     "Sunday",
     "Monday",
@@ -31,3 +35,8 @@ const year = d.getFullYear();
 
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("current_date").textContent = fulldate;
+//Date in footer end
+
+if ( d.getDay() == 5) {
+    document.getElementsByClassName("announcement").toggle("toggle");
+}

@@ -1,44 +1,126 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="utf-8" />
+    <link rel="shortcut icon"href="lesson_5/lesson_5_images/favicon weather.ico"/>
     <title>Fair Weather Forecast</title>
     <link href="css/normalize.css" rel="stylesheet" />
-    <link href="lessson_4_css/small.css" rel="stylesheet" />
-    <link href="lessson_4_css/medium.css" rel="stylesheet" />
-    <link href="lessson_4_css/large.css" rel="stylesheet" />
-</head>
-</head>
-
-<body>
+    <link href="lesson_5/lesson_5_css/small.css" rel="stylesheet" />
+    <link href="lesson_5/lesson_5_css/medium.css" rel="stylesheet" />
+    <link href="lesson_5/lesson_5_css/large.css" rel="stylesheet" />
+  </head>
+  <div class="announcement">
+    <span>Saturday = Preston Pancakes in the Park!</span>
+    <br>
+    <span>9:00 a.m. Saturday at city park.</span>
+  </div>
+  <body>
     <header>
-        <h1>Fair Weather Forecast</h1>
-        <h6>"where we always wish for fair weather"</h6>
-        <img src="lesson_4_images/FWF.png" alt="Sun and clouds" />
+      <h1>Fair Weather Forecast</h1>
+      <h6>"where we always wish for fair weather"</h6>
+      <img
+        class="logo"
+        src="lesson_5/lesson_5_images/FWF.png"
+        alt="Sun and clouds"
+      />
     </header>
     <nav>
-        <ul id="menu" class="navigation">
-            <li><a href="#" onclick="toggle_menu()">&#9776; Menu</a></li>
-            <li><a href="preston4.html">Preston</a></li>
-            <li><a href="soda_springs.html">Soda Springs</a></li>
-            <li><a href="fish_haven.html">Fish Haven</a></li>
-            <li><a href="storm_center.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
+      <ul id="menu" class="navigation">
+        <li><a href="#" onclick="toggle_menu()">&#9776; Menu</a></li>
+        <li><a class ="active" href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
     </nav>
     <main>
-        <h2>Preston, Idaho</h2>
-        <span class = "weather_summary"> Hero w/ weather summary</span>
-        <span class = "five_day"> 5 day forecast</span>
-        <span class = "article"> Article</span>
-        <span class = "contact"> Contact information</span>
+      <h1>Preston, Idaho</h1>
+      <div class="container">
+        <img
+          src="lesson_5/lesson_5_images/sun and mountains.jpeg"
+          alt="sun and mountains"
+        />
+        <div class="ws">
+          <h4>Weather Summary</h4>
+          <table>
+            <tr>
+              <th>Currently:</th>
+              <td>Sunny</td>
+            </tr>
+            <tr>
+              <th>Temperature:</th>
+              <td>71&#730;F</td>
+            </tr>
+            <tr>
+              <th>High:</th>
+              <td>76&#730;F</td>
+            </tr>
+            <tr>
+              <th>Low:</th>
+              <td>52&#730;F</td>
+            </tr>
+            <tr>
+              <th>Humidity:</th>
+              <td>52%</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <span class="five_day">
+        <h1>5 Day Forecast</h1>
+        <div class="forecast">
+          <div class ="box">
+            <span>Mon</span>
+            <img class="forecast_icon" src="lesson_5/lesson_5_images/Sunny-icon.png"></img>
+            <span>71&#730;F</span>
+          </div>
+          <div class ="box">
+            <span>Tue</span>
+            <img class="forecast_icon" src="lesson_5/lesson_5_images/Sunny-icon.png"></img>
+            <span>76&#730;F</span>
+          </div>
+          <div class ="box">
+            <span>Wed</span>
+            <img class="forecast_icon" src="lesson_5/lesson_5_images/Sunny-icon.png"></img>
+            <span>71&#730;F</span>
+          </div>
+          <div class ="box">
+            <span>Thur</span>
+            <img class="forecast_icon" src="lesson_5/lesson_5_images/Sunny-icon.png"></img>
+            <span>65&#730;F</span>
+          </div>
+          <div class ="box">
+            <span>Fri</span>
+            <img class="forecast_icon" src="lesson_5/lesson_5_images/Sunny-icon.png"></img>
+            <span>62&#730;F</span>
+          </div>
+        </div>
+      </span>
+      <span class="article">
+        <img class="article_logo" src="lesson_5/lesson_5_images/lightning.webp" alt="Lightning around a city scape"/>
+        <h1>Article</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, sapiente. Eos tempora sed in provident similique molestiae, reiciendis doloremque iste hic nam, nostrum quis commodi voluptatibus facilis voluptatum magnam architecto officiis sequi soluta neque harum perspiciatis illo necessitatibus pariatur? Magnam, quos corrupti maxime repellendus libero, ullam, vel aspernatur est ipsa amet vero dolores minima pariatur quia non saepe tempora asperiores fugiat ratione nulla! Sequi corporis error eveniet sint magni totam dignissimos, saepe aut vitae iusto ipsum, nisi iure neque autem, porro ratione! Quod ad ab cum quis? Tempore alias maxime sapiente nesciunt, temporibus rem culpa perferendis provident amet. Expedita, commodi distinctio! Sunt culpa dolor illum! Dolor a doloribus numquam officiis voluptatem delectus in aliquam neque, nisi explicabo hic veniam molestiae, eaque itaque culpa quis obcaecati, voluptate minima. Molestias id eaque minus alias eius quae provident deleniti architecto repellat obcaecati laborum nulla blanditiis, aspernatur ullam rem eligendi dolore possimus ducimus ut nostrum tempora aliquid eum? Modi saepe numquam nulla suscipit excepturi quidem fugiat aliquam, ex quisquam porro eligendi ut soluta ipsam asperiores nihil cumque corrupti. Nisi ea fugiat dolorem iusto recusandae? Saepe delectus, quidem at esse voluptatem corporis facilis, perspiciatis veritatis modi ratione fugiat nostrum quia alias eum aliquam autem. Distinctio!
+        </p>
+        </span>
+      
+        <div class = "ci">
+        <h1>Contact Information</h1>
+        <span>Phone: (901)867-5309</span>
+        <br>
+        <span>Email: fairweatherforecast@fwf.com</span>
+        <span id="social"><a href="https://twitter.com/home?lang=en">Twitter</a></span>
+        <span id="social"><a href="https://www.instagram.com/?hl=en">Instagram</a></span>
+        <span id="social"><a href="https://www.facebook.com/">Facebook</a></span>
+        <img id="map" src="lesson_5/lesson_5_images/Map.jpg"></img>
+        </div>
         <footer>
-            &copy; 2020 | Justice Olsen | <br>
-            <span id="current_date"></span>
-        </footer>  
+        &copy; 2020 | Justice Olsen | <br />
+        <span id="current_date"></span>
+      </footer>
     </main>
-    <script src="lesson_4_js/Lesson4.js"></script>
-</body>
-
+    <script src="lesson_5/lesson_5_js/Lesson5.js"></script>
+  </body>
 </html>
+
