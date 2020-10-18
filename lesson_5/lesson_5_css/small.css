@@ -16,7 +16,7 @@ body {
     color: #FFA200;
     font-family: 'Luckiest Guy', cursive;
 }
-.announcement {
+#announcement {
     text-align: center;
     background-color: #297373;
     color: #FFA200;

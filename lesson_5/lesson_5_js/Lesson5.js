@@ -37,6 +37,13 @@ const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("current_date").textContent = fulldate;
 //Date in footer end
 
+//Announcement start
+
 if ( d.getDay() == 5) {
-    document.getElementsByClassName("announcement").toggle("toggle");
+    document.getElementById("announcement").innerHTML = "Saturday = Preston Pancakes in the Park!</br>9:00 a.m. Saturday at city park.";
 }
+else {
+    document.getElementById("announcement").style.display = "none";
+
+}
+//Announcment end
