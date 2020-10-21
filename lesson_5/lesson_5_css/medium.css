@@ -2,27 +2,27 @@
     main {
       max-width: 1024px;
       margin: auto;
-    } 
-    .five_day {
-      display: block;
+    }  
+  .ci img {
+    border: 2px solid #297373;
+    width: 500px;
+    display: inline-block;
+  }
+  .five_day {
+      display: none;
       text-align: center;
       font-size: 1em;
   }
   .forecast {
-      display: flex;
+      display: none;
       padding: 10px;
       margin: 10px;
   }
   .box {
       padding: 20px;
       margin: 10px;
-      display: block;
+      display: none;
       border: 2px solid #297373;
-  } 
-  #map {
-    border: 2px solid #297373;
-    width: 500px;
-    display: inline;
-}
+  }
   }
   
