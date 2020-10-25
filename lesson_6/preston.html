@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <link
       rel="shortcut icon"
-      href=""
+      href="lesson_6_images/favicon_weather.ico"
     />
     <title>Fair Weather Forecast</title>
     <link href="css/normalize.css" rel="stylesheet" />
@@ -20,7 +20,7 @@
       <h6>"where we always wish for fair weather"</h6>
       <img
         class="logo"
-        src=""
+        src="lesson_6_images/FWF.png"
         alt="Sun and clouds"
       />
     </header>
@@ -38,10 +38,16 @@
       <h1>Preston, Idaho</h1>
       <div class="container">
         <picture class="wsimg">
-          <source srcset="lesson_6_images/sunandmountains400.jpg" media="(max-width: 400px)">
-          <source srcset="lesson_6_images/sunandmountains600.jpg" media="(max-width: 600px)">
-          <img src="lesson_6_images/sunandmountains800.jpg" alt="sun and mountains">
+          <img src="lesson_6_images/sunandmountains800.jpg" alt="sun and mountains"
+          sizes="50vw" 
+          srcset="lesson_6_images/sunandmountains800.jpg 800w, lesson_6_images/sunandmountains600.jpg 600w, lesson_6_images/sunandmountains400.jpg 400w" 
+          >
+
+          <!--<source srcset="lesson_6_images/sunandmountains400.jpg" media="(max-width: 600px)">
+          <source srcset="lesson_6_images/sunandmountains600.jpg" media="(max-width: 800px)">
+          <img src="lesson_6_images/sunandmountains800.jpg" alt="sun and mountains">-->
         </picture>
+
         <div class="ws">
           <h4>Weather Summary</h4>
           <table>
@@ -72,7 +78,7 @@
             <span>Mon</span>
             <img
               class="forecast_icon"
-              src=""
+              src="lesson_6_images/Sunny-icon.png"
               alt="sunny"
             />
             <span>71&#730;F</span>
@@ -81,7 +87,7 @@
             <span>Tue</span>
             <img
               class="forecast_icon"
-              src=""
+              src="lesson_6_images/Sunny-icon.png"
               alt="sunny"
             />
             <span>76&#730;F</span>
@@ -90,7 +96,7 @@
             <span>Wed</span>
             <img
               class="forecast_icon"
-              src=""
+              src="lesson_6_images/Sunny-icon.png"
               alt="sunny"
             />
             <span>71&#730;F</span>
@@ -99,7 +105,7 @@
             <span>Thur</span>
             <img
               class="forecast_icon"
-              src=""
+              src="lesson_6_images/Sunny-icon.png"
               alt="sunny"
             />
             <span>65&#730;F</span>
@@ -108,7 +114,7 @@
             <span>Fri</span>
             <img
               class="forecast_icon"
-              src=""
+              src="lesson_6_images/Sunny-icon.png"
               alt="sunny"
             />
             <span>62&#730;F</span>
@@ -116,11 +122,11 @@
         </div>
       </div>
       <div class="article">
-        <img
-          class="article_logo"
-          src=""
-          alt="Lightning around a city scape"
-        />
+        <picture class="aimg">
+          <source srcset="lesson_6_images/lightning200.jpg" media="(max-width: 600px)">
+          <source srcset="lesson_6_images/lightning300.jpg" media="(max-width: 800px)">
+          <img src="lesson_6_images/lightning400.jpg" alt="lightning around a city scape">
+        </picture>
         <h1>Article</h1>
         <p class="article_p">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
@@ -158,7 +164,7 @@
           <a href="https://www.facebook.com/">Facebook</a>
         </span>
         <img
-          src=""
+          src="lesson_6_images/Map.jpg"
           alt="map of the area"
         />
       </div>

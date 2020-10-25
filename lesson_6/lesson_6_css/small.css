@@ -36,10 +36,15 @@
      font-size: 2em;
      background-color: #DDE2E3;
  }
- picture.wsimg {
-     display: block;
-     width: 40%;
-    
+ .wsimg img {
+     width: 100%;
+      
+}
+ .aimg img {
+    display: block;
+    width: 50%;
+    margin: 0 2%;
+    float: right;
 }
  #menu {
      display: flex;
@@ -74,15 +79,9 @@
  .article_p {
      text-align: left;
  }
-
- .article_logo {
-     width: 400px;
-     float: right;
-     padding: 1em;
- }
-
  .container {
      position: relative;
+     display: block;
  }
 
  .forecast_icon {
