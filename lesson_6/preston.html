@@ -18,11 +18,12 @@
     <header>
       <h1>Fair Weather Forecast</h1>
       <h6>"where we always wish for fair weather"</h6>
-      <img
-        class="logo"
-        src="lesson_6_images/FWF.png"
-        alt="Sun and clouds"
-      />
+      
+      <picture class="logo">
+        <source srcset="lesson_6_images/FWF400.jpg" media="(max-width: 400px)">
+        <source srcset="lesson_6_images/FWF600.jpg" media="(max-width: 600px)">
+        <img src="lesson_6_images/FWF800.jpg" alt="sun and clouds logo">
+      </picture>
     </header>
     <nav>
       <ul id="menu" class="navigation">
@@ -74,7 +75,7 @@
             <span>Mon</span>
             <img
               class="forecast_icon"
-              src="lesson_6_images/Sunny-icon.png"
+              src="lesson_6_images/Sunny-icon.jpg"
               alt="sunny"
             />
             <span>71&#730;F</span>
@@ -83,7 +84,7 @@
             <span>Tue</span>
             <img
               class="forecast_icon"
-              src="lesson_6_images/Sunny-icon.png"
+              src="lesson_6_images/Sunny-icon.jpg"
               alt="sunny"
             />
             <span>76&#730;F</span>
@@ -92,7 +93,7 @@
             <span>Wed</span>
             <img
               class="forecast_icon"
-              src="lesson_6_images/Sunny-icon.png"
+              src="lesson_6_images/Sunny-icon.jpg"
               alt="sunny"
             />
             <span>71&#730;F</span>
@@ -101,7 +102,7 @@
             <span>Thur</span>
             <img
               class="forecast_icon"
-              src="lesson_6_images/Sunny-icon.png"
+              src="lesson_6_images/Sunny-icon.jpg"
               alt="sunny"
             />
             <span>65&#730;F</span>
@@ -110,7 +111,7 @@
             <span>Fri</span>
             <img
               class="forecast_icon"
-              src="lesson_6_images/Sunny-icon.png"
+              src="lesson_6_images/Sunny-icon.jpg"
               alt="sunny"
             />
             <span>62&#730;F</span>
@@ -159,10 +160,11 @@
           <a href="https://www.instagram.com/?hl=en">Instagram</a>
           <a href="https://www.facebook.com/">Facebook</a>
         </span>
-        <img
-          src="lesson_6_images/Map.jpg"
-          alt="map of the area"
-        />
+        <picture class="map">
+          <source srcset="lesson_6_images/Map400.jpg" media="(max-width: 400px)">
+          <source srcset="lesson_6_images/Map600.jpg" media="(max-width: 600px)">
+          <img src="lesson_6_images/Map800.jpg" alt="Map">
+        </picture>
       </div>
       <footer>
         &copy; 2020 | Justice Olsen | <br />
