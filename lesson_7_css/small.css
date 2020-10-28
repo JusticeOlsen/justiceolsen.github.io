@@ -1,0 +1,231 @@
+ @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@400;900&display=swap');
+
+ body {
+     background-color: #DDE2E3;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     font-size: 1em;
+     margin: 0;
+ }
+ 
+
+
+ h1 {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+h5 {
+    text-decoration: underline;
+    font-family: 'Roboto';
+}
+
+h6 {
+    font-style: italic;
+    font-family: 'Roboto';
+    padding: 10px;
+    margin: -100px;
+    
+    
+}
+
+
+
+#announcement {
+    text-align: center;
+    background-color: #297373;
+    color: #FFA200;
+    border: 10px dotted #FFA200;
+    font-size: 2em;
+    padding: 20px;
+}
+.announcement.toggle {
+    display: none;
+}
+
+
+
+header {
+    color: #FFA200;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4em;
+    text-align: center;
+    background-color: #297373;
+}
+header a:link {
+    color: #FFA200;
+}
+.logo img {
+    border-radius: 25px;
+    background-color: #DDE2E3;
+    margin: 100px;
+}
+
+
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+.navigation {
+    padding: .5em;
+    margin: -10;
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+    background-color: #297373;
+    color: #FFA200;
+    font-family: 'Luckiest Guy', cursive;
+}
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.navigation a:hover {
+    background-color: #DDE2E3;
+}
+
+.active {
+    border: 2px solid #FFA200;
+}
+.navigation a:link {
+    color: #FFA200;
+}
+
+.navigation a:visited {
+    color: #FFA200;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+
+
+main {
+     font-size: 2em;
+     background-color: #DDE2E3;
+}
+
+
+
+.container {
+    position: relative;
+    display: block;
+}
+.wsimg img {
+     width: 100%;      
+}
+.ws {
+    font-size: .5em;
+    color: #DDE2E3;
+    line-height: 1.5em;
+    padding: 1em;
+    text-align: left;
+    list-style: none;
+    background-color: #297373;
+    float: left;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+}
+.ws th {
+    color: #DDE2E3;
+    text-align: left;
+}
+.ws td {
+    color: #FFA200;
+    text-align: right;
+}
+
+
+
+.five_day {
+    display: none;
+    text-align: center;
+    font-size: 1em;
+}
+
+.forecast {
+    display: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    display: none;
+    border: 2px solid #297373;
+    background-color:#DDE2E3;
+}
+.forecast_icon {
+    width: 60px;  
+}
+
+
+
+ .aimg img {
+    display: block;
+    width: 50%;
+    margin: 0 2%;
+    float: right;
+}
+ .article_p {
+     text-align: left;
+ }
+
+.article {
+     display: block;
+     text-align: center;
+     font-size: 1em;
+     border: 2px solid #297373;
+ }
+
+
+
+ 
+
+
+ .ci {
+     text-decoration: bold;
+     margin: 20px;
+     display: inline-block;
+     text-align: left;
+     padding: 10px;
+     border: 2px solid #297373;
+ }
+ .ci img {
+     display: none;
+ }
+ 
+ 
+ #social {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1em;
+}
+
+
+ 
+
+footer {
+     text-align: center;
+ }
+
+
+
+ 
+
+
+
+ 
+

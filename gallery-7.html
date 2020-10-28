@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="lesson_7_images/favicon_weather.ico" />
+    <title>Fair Weather Forecast</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="lesson_7_css/small.css" rel="stylesheet" />
+    <link href="lesson_7_css/medium.css" rel="stylesheet" />
+    <link href="lesson_7_css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="announcement"></div>
+    <header>
+      <h1>Fair Weather Forecast</h1>
+      <h6>"where we always wish for fair weather"</h6>
+
+      <picture class="logo">
+        <source
+          srcset="lesson_7_images/FWF400.jpg"
+          media="(max-width: 400px)"
+        />
+        <source
+          srcset="lesson_7_images/FWF600.jpg"
+          media="(max-width: 600px)"
+        />
+        <img src="lesson_7_images/FWF800.jpg" alt="sun and clouds logo" />
+      </picture>
+    </header>
+    <nav>
+      <ul id="menu" class="navigation">
+        <li><a href="#" onclick="toggle_menu()">&#9776; Menu</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a class="active" href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Gallery</h1>
+      <picture>
+        <img
+          src="lesson_7_images/placeholder400.jpg"
+          data-src="lesson_7_images/MountainLake800.jpg"
+          alt="Lake in the mountains"
+        />
+      </picture>
+      <picture>
+        <img
+          src=""
+          data-src="lesson_7_images/Night800.jpg"
+          alt="The sky right before night"
+        />
+      </picture>
+      <picture>
+        <img
+          src="lesson_7_images/placeholder400.jpg"
+          data-src="lesson_7_images/OrangeClouds800.jpg"
+          alt="Pink and orange clouds"
+        />
+      </picture>
+      <picture>
+        <img
+          src="lesson_7_images/placeholder400.jpg"
+          data-src="lesson_7_images/Rainbow800.jpg"
+          alt="Rainbow in the mountains"
+        />
+      </picture>
+      <picture>
+        <img
+          src="lesson_7_images/placeholder400.jpg"
+          data-src="lesson_7_images/Rainfall800.jpg"
+          alt="Rainfall from a distance"
+        />
+      </picture>
+      <picture>
+        <img
+          src="lesson_7_images/placeholder400.jpg"
+          data-src="lesson_7_images/Snowfall800.jpg"
+          alt="Snowfall in the city"
+        />
+      </picture>
+      <picture>
+        <img
+          src="lesson_7_images/placeholder400.jpg"
+          data-src="lesson_7_images/lightning800.jpg"
+          alt="Lighting strike and purple sky"
+        />
+      </picture>
+      <picture>
+        <img
+          src="lesson_7_images/placeholder400.jpg"
+          data-src="lesson_7_images/Lake800.jpg"
+          alt="Lake reflecting clouds"
+        />
+      </picture>
+      <picture>
+        <img
+          src="lesson_7_images/placeholder400.jpg"
+          data-src="lesson_7_images/tornado800.jpg"
+          alt="Tornado in a field"
+        />
+      </picture>
+
+      <footer>
+        &copy; 2020 | Justice Olsen | <br />
+        <span id="current_date"></span>
+      </footer>
+    </main>
+    <script src="lesson_7_js/Lesson6.js"></script>
+    <script src="lesson_7_js/lazyload.js"></script>
+  </body>
+</html>
