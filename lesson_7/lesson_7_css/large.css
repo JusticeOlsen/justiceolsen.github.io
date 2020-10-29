@@ -27,6 +27,9 @@
         grid-row-gap: 100px;
         margin: 190px;
     }
+    .gallery img:hover {
+        box-shadow: 0 14px 28px black;
+    }
     .five_day {
         display: block;
         text-align: center;

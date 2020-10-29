@@ -127,9 +127,6 @@ main {
     padding: 25px;
     padding-bottom: 100px; 
 }
-.gallery img:hover {
-    box-shadow: 0 14px 28px black;
-}
 .gallery img {
     padding: 25px;
     padding-bottom: 100px;
