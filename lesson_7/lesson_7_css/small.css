@@ -1,19 +1,17 @@
- @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@400;900&display=swap');
-
- body {
-     background-color: #DDE2E3;
-     font-family: 'Roboto', sans-serif;
-     font-weight: 400;
-     font-size: 1em;
-     margin: 0;
- }
- 
+body {
+    background-color: #DDE2E3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0;
+}
 
 
- h1 {
+
+h1 {
     text-align: center;
     padding: 10px;
-    
+
 }
 
 h5 {
@@ -26,8 +24,8 @@ h6 {
     font-family: 'Roboto';
     padding: 10px;
     margin: -100px;
-    
-    
+
+
 }
 
 
@@ -40,6 +38,7 @@ h6 {
     font-size: 2em;
     padding: 20px;
 }
+
 .announcement.toggle {
     display: none;
 }
@@ -53,9 +52,11 @@ header {
     text-align: center;
     background-color: #297373;
 }
+
 header a:link {
     color: #FFA200;
 }
+
 .logo img {
     border-radius: 25px;
     background-color: #DDE2E3;
@@ -67,6 +68,7 @@ header a:link {
     display: flex;
     flex-direction: column;
 }
+
 .navigation {
     padding: .5em;
     margin: -10;
@@ -77,6 +79,7 @@ header a:link {
     color: #FFA200;
     font-family: 'Luckiest Guy', cursive;
 }
+
 .navigation li:first-child {
     display: block;
 }
@@ -96,6 +99,7 @@ header a:link {
 .active {
     border: 2px solid #FFA200;
 }
+
 .navigation a:link {
     color: #FFA200;
 }
@@ -111,9 +115,34 @@ header a:link {
 
 
 main {
-     font-size: 2em;
-     background-color: #DDE2E3;
+    font-size: 2em;
+    background-color: #DDE2E3;
 }
+
+.gallery {
+    position: relative;
+    right: 100px;
+    grid-template-columns: 400px;
+    margin: 190px;
+    padding: 25px;
+    padding-bottom: 100px; 
+}
+.gallery img:hover {
+    box-shadow: 0 14px 28px black;
+}
+.gallery img {
+    padding: 25px;
+    padding-bottom: 100px;
+}
+.gallery h2 {
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+
+
+
 
 
 
@@ -121,9 +150,11 @@ main {
     position: relative;
     display: block;
 }
+
 .wsimg img {
-     width: 100%;      
+    width: 100%;
 }
+
 .ws {
     font-size: .5em;
     color: #DDE2E3;
@@ -137,10 +168,12 @@ main {
     top: 1em;
     left: 1em;
 }
+
 .ws th {
     color: #DDE2E3;
     text-align: left;
 }
+
 .ws td {
     color: #FFA200;
     text-align: right;
@@ -165,67 +198,61 @@ main {
     margin: 10px;
     display: none;
     border: 2px solid #297373;
-    background-color:#DDE2E3;
+    background-color: #DDE2E3;
 }
+
 .forecast_icon {
-    width: 60px;  
+    width: 60px;
 }
 
 
 
- .aimg img {
+.aimg img {
     display: block;
     width: 50%;
     margin: 0 2%;
     float: right;
 }
- .article_p {
-     text-align: left;
- }
+
+.article_p {
+    text-align: left;
+}
 
 .article {
-     display: block;
-     text-align: center;
-     font-size: 1em;
-     border: 2px solid #297373;
- }
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    border: 2px solid #297373;
+}
 
 
 
- 
 
 
- .ci {
-     text-decoration: bold;
-     margin: 20px;
-     display: inline-block;
-     text-align: left;
-     padding: 10px;
-     border: 2px solid #297373;
- }
- .ci img {
-     display: none;
- }
- 
- 
- #social {
+
+.ci {
+    text-decoration: bold;
+    margin: 20px;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid #297373;
+}
+
+.ci img {
+    display: none;
+}
+
+
+#social {
     display: inline-block;
     padding: 10px;
     font-size: 1em;
 }
 
 
- 
+
 
 footer {
-     text-align: center;
- }
-
-
-
- 
-
-
-
- 
-
+    text-align: center;
+}

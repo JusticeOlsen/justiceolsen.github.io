@@ -3,6 +3,16 @@
     max-width: 1024px;
     margin: auto;
   }
+  .gallery {
+    position: relative;
+    right: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin: 190px; 
+}
 
   .ci img {
     border: 2px solid #297373;
