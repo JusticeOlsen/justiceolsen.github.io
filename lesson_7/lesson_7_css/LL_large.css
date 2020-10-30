@@ -9,7 +9,7 @@
 
     main {
         font-size: 1em;
-        max-width: 800px;
+        max-width: 1200px;
         margin: auto;
     }
 
@@ -17,7 +17,19 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
-
+    .gallery {
+        position: relative;
+        right: 350px;
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px;
+        grid-column-gap: 100px;
+        grid-row-gap: 100px;
+        margin: 190px;
+    }
+    .gallery img:hover {
+        box-shadow: 0 14px 28px black;
+    }
     .five_day {
         display: block;
         text-align: center;
