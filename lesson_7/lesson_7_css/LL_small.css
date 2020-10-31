@@ -122,10 +122,12 @@ main {
 .gallery {
     position: relative;
     right: 100px;
-    grid-template-columns: 400px;
-    margin: 190px;
-    padding: 25px;
-    padding-bottom: 100px; 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    margin: 190px; 
 }
 .gallery img {
     padding: 25px;
