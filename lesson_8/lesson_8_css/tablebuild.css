@@ -1,0 +1,26 @@
+body {
+    background-color:grey;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 0;
+}
+h4 {
+    display: block;
+    text-align: center;
+    border: 2px thin  white;
+}
+.acme {
+    display: grid;
+    grid-template-columns: 100px 50px 100px;
+    grid-template-rows: 40px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.acme th {
+    color: #DDE2E3;
+    text-align: left;
+}
+.acme td {
+    color: #FFA200;
+    text-align: right;
+}
