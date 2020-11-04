@@ -47,3 +47,9 @@ else {
 
 }
 //Announcment end
+
+//Makes slider work
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}
+//End slider work
