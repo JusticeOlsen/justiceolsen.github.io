@@ -33,6 +33,9 @@ table {
     border: 1px thin white;
     background-color: #e7ffed ;
 }
+#bf {
+    font-style: italic;
+}
 #footer {
     text-align: center;
     color: black;

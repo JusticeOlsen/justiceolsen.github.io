@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="lesson_8_images/favicon_weather.ico" />
+    <title>Fair Weather Forecast</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="lesson_8_css/LL_small.css" rel="stylesheet" />
+    <link href="lesson_8_css/LL_medium.css" rel="stylesheet" />
+    <link href="lesson_8_css/LL_large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="announcement"></div>
+    <header>
+      <h1>Fair Weather Forecast</h1>
+      <h6>"where we always wish for fair weather"</h6>
+
+      <picture class="logo">
+        <source
+          srcset="lesson_8_images/FWF400.jpg"
+          media="(max-width: 400px)"
+        />
+        <source
+          srcset="lesson_8_images/FWF600.jpg"
+          media="(max-width: 600px)"
+        />
+        <img src="lesson_8_images/FWF800.jpg" alt="sun and clouds logo" />
+      </picture>
+    </header>
+    <nav>
+      <ul id="menu" class="navigation">
+        <li><a href="#" onclick="toggle_menu()">&#9776; Menu</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a class="active" href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Gallery</h1>
+      <div class="gallery">
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/MountainLake400.jpg"
+            alt="Lake in the mountains"
+          />
+          <h2>Lake in the mountains</h2>
+        </picture>
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/Night400.jpg"
+            alt="The sky right before night"
+          />
+          <h2>The sky right before night</h2>
+        </picture>
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/OrangeClouds400.jpg"
+            alt="Pink and orange clouds"
+          />
+          <h2>Pink and orange clouds</h2>
+        </picture>
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/Rainbow400.jpg"
+            alt="Rainbow in the mountains"
+          />
+          <h2>Rainbow in the mountains</h2>
+        </picture>
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/Rainfall400.jpg"
+            alt="Rainfall from a distance"
+          />
+          <h2>Rainfall from a distance</h2>
+        </picture>
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/Snowfall400.jpg"
+            alt="Snowfall in the city"
+          />
+          <h2>Snowfall in the city</h2>
+        </picture>
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/purple_lightning400.jpg"
+            alt="Lighting strike and purple sky"
+          />
+          <h2>Lighting strike and purple sky</h2>
+        </picture>
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/Lake400.jpg"
+            alt="Lake reflecting clouds"
+          />
+          <h2>Lake reflecting clouds</h2>
+        </picture>
+        <picture>
+          <img
+            src="lesson_8_images/placeholder400.jpg"
+            data-src="lesson_8_images/tornado400.jpg"
+            alt="Tornado in a field"
+          />
+          <h2>Tornado in a field</h2>
+        </picture>
+      </div>
+
+      <footer>
+        &copy; 2020 | Justice Olsen | <br />
+        <span id="current_date"></span>
+      </footer>
+    </main>
+    <script src="lesson_8_js/Lesson6.js"></script>
+    <script src="lesson_8_js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="lesson_8_js/font.js"></script>
+  </body>
+</html>
