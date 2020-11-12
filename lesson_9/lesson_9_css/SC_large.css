@@ -1,0 +1,43 @@
+@media only screen and (min-width: 1024px) {
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: inline-block;
+    }
+
+    main {
+        font-size: 1em;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    #menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .five_day {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .forecast {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .box {
+        padding: 20px;
+        margin: 10px;
+        display: block;
+        border: 2px solid #297373;
+    }
+
+    .ws {
+        font-size: 1em;
+    }
+}

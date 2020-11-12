@@ -1,0 +1,55 @@
+@media only screen and (min-width: 1024px) {
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: inline-block;
+    }
+
+    main {
+        font-size: 1em;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .gallery {
+        position: relative;
+        right: 350px;
+        display: grid;
+        grid-template-columns: 400px 400px 400px;
+        grid-template-rows: 400px 400px 400px;
+        grid-column-gap: 100px;
+        grid-row-gap: 100px;
+        margin: 190px;
+    }
+    .gallery img:hover {
+        box-shadow: 0 14px 28px black;
+    }
+    .five_day {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .forecast {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .box {
+        padding: 20px;
+        margin: 10px;
+        display: block;
+        border: 2px solid #297373;
+    }
+
+    .ws {
+        font-size: 1em;
+    }
+}
