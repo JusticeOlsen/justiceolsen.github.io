@@ -40,4 +40,28 @@
     .ws {
         font-size: 1em;
     }
+    .cards {
+        width: 100%;
+        display: flex;
+    }
+    
+    .cards section {
+        background-color: #297373;
+        border: 2px solid #FFA200;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    
+    .cards section h2 {
+        color: #FFA200;
+        font-size: 28px;
+        margin: 5px 0;
+    }
+    
+    .cards section img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
 }

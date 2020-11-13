@@ -114,8 +114,17 @@ main {
      font-size: 2em;
      background-color: #DDE2E3;
 }
+main p {
+    border: 2px solid #FFA200;
+}
 
 
+body {
+    display: block; 
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
 
 .container {
     position: relative;
