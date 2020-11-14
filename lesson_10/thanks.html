@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="lesson_10_images/favicon_weather.ico" />
+    <title>Fair Weather Forecast</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="lesson_10_css/SC_small.css" rel="stylesheet" />
+    <link href="lesson_10_css/SC_medium.css" rel="stylesheet" />
+    <link href="lesson_10_css/SC_large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="announcement"></div>
+    <header>
+      <h1>Fair Weather Forecast</h1>
+      <h6>"where we always wish for fair weather"</h6>
+
+      <picture class="logo">
+        <source
+          srcset="lesson_10_images/FWF400.jpg"
+          media="(max-width: 400px)"
+        />
+        <source
+          srcset="lesson_10_images/FWF600.jpg"
+          media="(max-width: 600px)"
+        />
+        <img src="lesson_10_images/FWF800.jpg" alt="sun and clouds logo" />
+      </picture>
+    </header>
+    <nav>
+      <ul id="menu" class="navigation">
+        <li><a href="#" onclick="toggle_menu()">&#9776; Menu</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston-10.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a class="active" href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p class="thanks">Thank you for your report on the storm. If you put that you are in need of help, it will be on the way shortly. </p>
+      
+      
+
+      <footer>
+        &copy; 2020 | Justice Olsen | <br />
+        <span id="current_date"></span>
+      </footer>
+    </main>
+    <script src="lesson_10_js/Lesson6.js"></script>
+    <script src="lesson_10_js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="lesson_10_js/font.js"></script>
+  </body>
+</html>

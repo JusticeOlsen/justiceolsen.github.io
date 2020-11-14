@@ -1,0 +1,67 @@
+@media only screen and (min-width: 1024px) {
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: inline-block;
+    }
+
+    main {
+        font-size: 1em;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    #menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .five_day {
+        display: block;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .forecast {
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .box {
+        padding: 20px;
+        margin: 10px;
+        display: block;
+        border: 2px solid #297373;
+    }
+
+    .ws {
+        font-size: 1em;
+    }
+    .cards {
+        width: 100%;
+        display: flex;
+    }
+    
+    .cards section {
+        background-color: #297373;
+        border: 2px solid #FFA200;
+        margin: 10px;
+        padding: 10px;
+        
+    }
+    
+    .cards section h2 {
+        color: #FFA200;
+        font-size: 28px;
+        margin: 5px 0;
+    }
+    
+    .cards section img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}

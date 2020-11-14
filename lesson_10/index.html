@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="lesson_10_images/favicon_weather.ico" />
+    <title>Fair Weather Forecast</title>
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="lesson_10_css/small.css" rel="stylesheet" />
+    <link href="lesson_10_css/medium.css" rel="stylesheet" />
+    <link href="lesson_10_css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="announcement"></div>
+    <header>
+      <h1>Fair Weather Forecast</h1>
+      <h6>"where we always wish for fair weather"</h6>
+
+      <picture class="logo">
+        <source
+          srcset="lesson_10_images/FWF400.jpg"
+          media="(max-width: 400px)"
+        />
+        <source
+          srcset="lesson_10_images/FWF600.jpg"
+          media="(max-width: 600px)"
+        />
+        <img src="lesson_10_images/FWF800.jpg" alt="sun and clouds logo" />
+      </picture>
+    </header>
+    <nav>
+      <ul id="menu" class="navigation">
+        <li><a href="#" onclick="toggle_menu()">&#9776; Menu</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="preston-10.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <picture class="wsimg">
+          <img src="lesson_10_images/sunandmountains800.jpg" alt="sun and mountains"
+          sizes="50vw" 
+          srcset="lesson_10_images/sunandmountains800.jpg 800w, lesson_10_images/sunandmountains600.jpg 600w, lesson_10_images/sunandmountains400.jpg 400w" 
+          />
+        </picture>
+        </div>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus explicabo earum maiores consectetur incidunt eius atque perferendis deserunt! Quos praesentium quas ducimus corrupti voluptates itaque dolore iste aspernatur nulla officia?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste nemo expedita ad sint perspiciatis, omnis molestiae quos ullam voluptas impedit officiis, odio dicta. Asperiores exercitationem qui inventore eos? Illum, dicta!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus atque tempore dolorum qui reiciendis corporis est ab, excepturi voluptates deserunt expedita aperiam veniam odit unde numquam voluptate, aut quibusdam! Animi!</p>
+      <div class="cards"></div>
+    </main>
+      <footer>
+        &copy; 2020 | Justice Olsen | <br />
+        <span id="current_date"></span>
+        <a href="home-wireframe.html">Wireframe</a>
+      </footer>
+    <script src="lesson_10_js/lesson9.js"></script>
+    <script src="lesson_10_js/Lesson6.js"></script>
+    <script src="lesson_10_js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="lesson_10_js/font.js"></script>
+  </body>
+</html>
