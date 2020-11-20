@@ -28,5 +28,11 @@
     display: none;
     border: 2px solid #297373;
   }
+  .cards section div{
+    float: left;
+  }
+  section:nth-child(even) div{
+    float: right;
+  }
   
 }

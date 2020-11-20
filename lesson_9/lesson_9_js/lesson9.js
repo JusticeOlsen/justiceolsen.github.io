@@ -12,6 +12,7 @@ fetch(requestURL)
         if (townNames.includes(towns[i].name)){
 
       let card = document.createElement('section');
+      let data = document.createElement('div');
       let h2 = document.createElement('h2');
       let motto = document.createElement('h3');
       let year = document.createElement('p');
@@ -28,11 +29,13 @@ fetch(requestURL)
       photo.setAttribute('alt', towns[i].name);
       
 
-      card.appendChild(h2);
-      card.appendChild(motto);
-      card.appendChild(year);
-      card.appendChild(pop);
-      card.appendChild(rainfall);
+      data.appendChild(h2);
+      data.appendChild(motto);
+      data.appendChild(year);
+      data.appendChild(pop);
+      data.appendChild(rainfall);
+      
+      card.appendChild(data);
       card.appendChild(photo);
 
       document.querySelector('div.cards').appendChild(card);

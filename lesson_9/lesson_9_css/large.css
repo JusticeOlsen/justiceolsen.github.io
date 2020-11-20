@@ -40,28 +40,21 @@
     .ws {
         font-size: 1em;
     }
+
     .cards {
-        width: 100%;
-        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    
-    .cards section {
-        background-color: #297373;
-        border: 2px solid #FFA200;
-        margin: 10px;
-        padding: 10px;
-        
+
+    .cards section div {
+        float: none;
     }
-    
-    .cards section h2 {
-        color: #FFA200;
-        font-size: 28px;
-        margin: 5px 0;
+
+    section:nth-child(even) div {
+        float: none;
     }
-    
-    .cards section img {
-        width: 100%;
-        margin-bottom: 10px;
+
+    .cards img {
+        width: 90%;
     }
-    
+
 }
