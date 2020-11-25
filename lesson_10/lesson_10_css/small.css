@@ -163,20 +163,19 @@ body {
     font-size: 1em;
 }
 
-.forecast {
-    display: none;
+.forecast span {
+    text-decoration: bold;
     padding: 10px;
     margin: 10px;
 }
 
-.box {
+.forecast div  {
     padding: 20px;
     margin: 10px;
-    display: none;
-    border: 2px solid #297373;
-    background-color:#DDE2E3;
+    border: 2px solid #FFA200;
+    background-color: #297373;
 }
-.forecast_icon {
+.forecast img {
     width: 60px;  
 }
 
